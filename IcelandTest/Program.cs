@@ -33,7 +33,7 @@ Fresh Item -1 5";
 
                 InventoryManagement inventoryManagement = new InventoryManagement();
 
-                foreach (string line in input.Split(Environment.NewLine))
+                foreach (string line in input.Split("\n"))
                 {
                     var result = InputRecognition.Process(line);
                     inventoryManagement.Run(result);
