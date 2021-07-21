@@ -22,7 +22,7 @@ namespace IcelandTest_UnitTest
         public void LongLastItemFactoy_EqualPropertyValuesAsDefined()
         {
             //assign
-            IProductFactory factory = new LongLastItemFactoy();
+            IProductFactory factory = new LongLastItemFactory();
             string label = "Soap";
             int sellIn = 1;
             int quality = 1;
@@ -40,7 +40,7 @@ namespace IcelandTest_UnitTest
         public void LongLastItemFactoy_NotEqualPropertyValuesAsDefined()
         {
             //assign
-            IProductFactory factory = new LongLastItemFactoy();
+            IProductFactory factory = new LongLastItemFactory();
             string label = "Soap";
             int sellIn = 1;
             int quality = 1;
@@ -59,7 +59,7 @@ namespace IcelandTest_UnitTest
         public void LongLastItemFactoy_QualitySellinNeverChange()
         {
             //assign
-            IProductFactory factory = new LongLastItemFactoy();
+            IProductFactory factory = new LongLastItemFactory();
             string label = "Soap";
             int sellIn = 1;
             int quality = 1;
