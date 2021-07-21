@@ -18,7 +18,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_EqualPropertyValuesAsDefined()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 1;
             int quality = 1;
@@ -36,7 +36,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_NotEqualPropertyValuesAsDefined()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 1;
             int quality = 1;
@@ -55,7 +55,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_QualityIncreasedBy2AsDayPassing_SellIn_6()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 6;
             int quality = 1;
@@ -81,7 +81,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_QualityIncreasedBy2AsDayPassing_SellIn_10()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 10;
             int quality = 1;
@@ -107,7 +107,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_QualityIncreasedBy1AsDayPassing_SellIn_11()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 11;
             int quality = 1;
@@ -133,7 +133,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_QualityIncreasedBy3AsDayPassing_SellIn_5()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 5;
             int quality = 1;
@@ -159,7 +159,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_QualityIncreasedBy2AsDayPassing_SellIn_0()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 0;
             int quality = 1;
@@ -186,7 +186,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_QualityMoreThan50()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 1;
             int quality = 60;
@@ -212,7 +212,7 @@ namespace IcelandTest_UnitTest
         public void SeasonalItemFactory_QualityLessThanZero()
         {
             //assign
-            IProductFactory factory = new SeasonalItemFactoy();
+            IProductFactory factory = new SeasonalItemFactory();
             string label = "Christmas Crackers";
             int sellIn = 10;
             int quality = -5;
