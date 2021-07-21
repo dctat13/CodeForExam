@@ -19,11 +19,13 @@ Fresh Item 2 2
 Fresh Item -1 5";
 
 
+
+            InventoryManagement inventoryManagement = new InventoryManagement();
+
             foreach (string line in input.Split(Environment.NewLine))
             {
                 var result = InputRecognition.Process(line);
-
-
+                inventoryManagement.Run(result);
             }
 
             Console.ReadLine();
