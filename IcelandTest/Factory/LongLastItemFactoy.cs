@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace IcelandTest.Factory
 {
-    public class LongLastItemFactoy : IProductFactory
+    public class LongLastItemFactory : IProductFactory
     {
         public IProduct Create(string label, int sellIn, int quality)
         {

@@ -38,12 +38,12 @@ namespace IcelandTest
                         break;
 
                     case ProductType.LongLastingItem://SOAP
-                        productFactory = new LongLastItemFactoy();
+                        productFactory = new LongLastItemFactory();
                         process = new LongLastingItemProcess();
                         break;
 
                     case ProductType.SeasonalItem://Christmas crackers
-                        productFactory = new SeasonalItemFactoy();
+                        productFactory = new SeasonalItemFactory();
                         process = new SeasonalItemProcess();
                         break;
 
