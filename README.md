@@ -12,6 +12,10 @@ This soulution is coded with:
 IcelandTest does not have any logic for reading input from external. The testing input could be placed at Program.cs as L14-L22
  
 ## To Run
+You need:
+- 	Visual Studio 2019
+-	.Net5 SDK (https://dotnet.microsoft.com/download/dotnet/5.0)
+
 1. Comment L11, L26-L29 in Program.cs if running this program need not to wait for the end of the day.
 2. Set IcelandTest as target project and press F5 to run as usual C# project.
 
