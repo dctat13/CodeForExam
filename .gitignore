@@ -1,0 +1,7 @@
+
+*.cache
+IcelandTest/obj/*
+.vs/IcelandTest/v16/.suo
+IcelandTest/bin/Debug/*
+IcelandTest_UnitTest/bin/Debug/*
+IcelandTest_UnitTest/obj/Debug/*

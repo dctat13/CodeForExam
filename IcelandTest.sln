@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcelandTest", "IcelandTest\IcelandTest.csproj", "{8C4DA747-580F-422A-BD31-B0E6B5EF57BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IcelandTest", "IcelandTest\IcelandTest.csproj", "{8C4DA747-580F-422A-BD31-B0E6B5EF57BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcelandTest_UnitTest", "IcelandTest_UnitTest\IcelandTest_UnitTest.csproj", "{93DF863B-0C21-4A82-B2C9-5C74E4BB1992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8C4DA747-580F-422A-BD31-B0E6B5EF57BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4DA747-580F-422A-BD31-B0E6B5EF57BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4DA747-580F-422A-BD31-B0E6B5EF57BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DF863B-0C21-4A82-B2C9-5C74E4BB1992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DF863B-0C21-4A82-B2C9-5C74E4BB1992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DF863B-0C21-4A82-B2C9-5C74E4BB1992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DF863B-0C21-4A82-B2C9-5C74E4BB1992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
