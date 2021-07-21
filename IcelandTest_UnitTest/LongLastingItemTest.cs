@@ -19,7 +19,7 @@ namespace IcelandTest_UnitTest
         }
 
         [Test]
-        public void AgedBrieFactory_EqualPropertyValuesAsDefined()
+        public void LongLastItemFactoy_EqualPropertyValuesAsDefined()
         {
             //assign
             IProductFactory factory = new LongLastItemFactoy();
@@ -37,7 +37,7 @@ namespace IcelandTest_UnitTest
         }
 
         [Test]
-        public void AgedBrieFactory_NotEqualPropertyValuesAsDefined()
+        public void LongLastItemFactoy_NotEqualPropertyValuesAsDefined()
         {
             //assign
             IProductFactory factory = new LongLastItemFactoy();
@@ -56,7 +56,7 @@ namespace IcelandTest_UnitTest
 
 
         [Test]
-        public void AgedBrieFactory_QualitySellinNeverChange()
+        public void LongLastItemFactoy_QualitySellinNeverChange()
         {
             //assign
             IProductFactory factory = new LongLastItemFactoy();
